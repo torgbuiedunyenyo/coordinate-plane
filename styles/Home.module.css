@@ -1,112 +1,197 @@
 .container {
+
   display: flex;
+  
   justify-content: center;
+  
   align-items: center;
+  
   min-height: 100vh;
+  
   padding: 20px;
-}
-
-.main {
+  
+  }
+  
+  .main {
+  
   display: flex;
+  
   flex-direction: column;
+  
   align-items: center;
-}
-
-.coordinatePlaneContainer {
+  
+  }
+  
+  .coordinatePlaneContainer {
+  
   display: flex;
+  
   flex-direction: column;
+  
   align-items: center;
+  
   margin-top: 20px;
-}
-
-.coordinatePlane {
+  
+  }
+  
+  .coordinatePlane {
+  
   position: relative;
+  
   display: grid;
+  
   grid-template-columns: repeat(11, 1fr);
+  
   gap: 1px;
+  
   width: 300px;
+  
   height: 300px;
+  
   background-color: #fff;
+  
   border: 1px solid #e9ecef;
+  
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.square {
+  
+  }
+  
+  .square {
+  
   display: flex;
+  
   justify-content: center;
+  
   align-items: center;
-}
-
-.circle {
+  
+  }
+  
+  .circle {
+  
   position: absolute;
+  
   top: 0;
+  
   left: 0;
+  
   width: 16px;
+  
   height: 16px;
+  
   border-radius: 50%;
+  
   background-color: #4c6ef5;
+  
   border: 2px solid #fff;
+  
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  
   cursor: grab;
+  
   z-index: 1;
-}
-
-.arrowX,
-.arrowY {
+  
+  }
+  
+  .arrowX,
+  
+  .arrowY {
+  
   position: absolute;
+  
   background-color: #ced4da;
-}
-
-.arrowX {
+  
+  }
+  
+  .arrowX {
+  
   top: 50%;
+  
   left: 0;
+  
   transform: translateY(-50%);
+  
   width: 100%;
+  
   height: 2px;
-}
-
-.arrowY {
+  
+  }
+  
+  .arrowY {
+  
   top: 0;
+  
   left: 50%;
+  
   transform: translateX(-50%);
+  
   width: 2px;
+  
   height: 100%;
-}
-
-.label {
+  
+  }
+  
+  .label {
+  
   font-size: 12px;
+  
   color: #6c757d;
+  
   text-align: center;
-}
-
-.labelLeft {
+  
+  }
+  
+  .labelLeft {
+  
   position: absolute;
+  
   left: 10px;
+  
   top: -20px;
-}
-
-.labelRight {
+  
+  }
+  
+  .labelRight {
+  
   position: absolute;
+  
   right: 10px;
+  
   top: -20px;
-}
-
-.messageDisplayContainer {
+  
+  }
+  
+  .messageDisplayContainer {
+  
   width: 100%;
+  
   max-width: 800px;
+  
   height: 400px;
+  
   margin-bottom: 20px;
+  
   border: 2px solid #000;
+  
   overflow: hidden;
-}
-
-.messageDisplay {
+  
+  }
+  
+  .messageDisplay {
+  
   width: 100%;
+  
   height: 100%;
+  
   padding: 20px;
-  font-size: 18px;
+  
+  font-size: 11px;
+  
   color: #343a40;
+  
   text-align: left;
+  
   overflow-y: auto;
+  
   box-sizing: border-box;
-}
+  
+  }
