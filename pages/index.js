@@ -410,10 +410,10 @@ export default function Home() {
         </div>
         <div className={styles.aboutContainer}>
           <p className={styles.aboutText}>
-          This is an experiment in how to get beyond "prompting" with LLMs and surface more powerful interactions with users.
+          This is an experiment in how to get beyond &quot;prompting&quot; with LLMs and surface more powerful interactions with users.
           <br></br>
           <br></br>
-          The center of the coordinate plane displays a short excerpt from David Foster Wallace's "This is Water." The axes of the coordinate plane represent different styles and tones of writing.
+          The center of the coordinate plane displays a short excerpt from David Foster Wallace&#39;s &quot;This is Water.&quot; The axes of the coordinate plane represent different styles and tones of writing.
           <br></br>
           <br></br>
           By dragging the cursor around, the user can apply transformations to the tone and style of the writing. The Y axis makes the text more Ominous or Auspicious. The X axis makes the text more Metaphorical or Literal.
