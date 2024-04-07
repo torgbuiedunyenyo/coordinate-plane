@@ -109,25 +109,24 @@ export default function Home() {
         <title>Coordinate Plane</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+  
       <main className={styles.main}>
         <div className={styles.messageDisplayContainer}>
           <div className={styles.messageDisplay}>{messages[currentSquare] || ""}</div>
         </div>
         <div className={styles.coordinatePlaneContainer}>
-          <div className={styles.label}>More Ominous</div>
           <div className={styles.coordinatePlane} ref={coordinatePlaneRef}>
             {Array.from({ length: 121 }, (_, i) => (
               <div key={i} className={styles.square}></div>
             ))}
             <div className={styles.circle} ref={circleRef}></div>
-            <div className={styles.arrowX}>
-              <span className={styles.labelLeft}>More Literal</span>
-              <span className={styles.labelRight}>More Metaphorical</span>
-            </div>
+            <div className={styles.arrowX}></div>
             <div className={styles.arrowY}></div>
+            <div className={`${styles.label} ${styles['label-top']}`}>More Ominous</div>
+            <div className={`${styles.label} ${styles['label-bottom']}`}>More Auspicious</div>
+            <div className={`${styles.label} ${styles['label-left']}`}>More Literal</div>
+            <div className={`${styles.label} ${styles['label-right']}`}>More Metaphorical</div>
           </div>
-          <div className={styles.label}>More Auspicious</div>
         </div>
       </main>
     </div>
