@@ -187,3 +187,16 @@
   box-sizing: border-box;
   
   }
+
+  .aboutContainer {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .aboutText {
+    font-size: 12px;
+    color: #343a40;
+    line-height: 1.6;
+  }

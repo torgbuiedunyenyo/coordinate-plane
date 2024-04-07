@@ -390,7 +390,6 @@ export default function Home() {
         <title>Coordinate Plane</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main className={styles.main}>
         <div className={styles.messageDisplayContainer}>
           <div className={styles.messageDisplay}>{messages[currentSquare] || ""}</div>
@@ -408,6 +407,20 @@ export default function Home() {
             <div className={`${styles.label} ${styles['label-left']}`}>More Literal</div>
             <div className={`${styles.label} ${styles['label-right']}`}>More Metaphorical</div>
           </div>
+        </div>
+        <div className={styles.aboutContainer}>
+          <p className={styles.aboutText}>
+          This is an experiment in how to get beyond "prompting" with LLMs and surface more powerful interactions with users.
+          <br></br>
+          <br></br>
+          The center of the coordinate plane displays a short excerpt from David Foster Wallace's "This is Water." The axes of the coordinate plane represent different styles and tones of writing.
+          <br></br>
+          <br></br>
+          By dragging the cursor around, the user can apply transformations to the tone and style of the writing. The Y axis makes the text more Ominous or Auspicious. The X axis makes the text more Metaphorical or Literal.
+          <br></br>
+          <br></br>
+          For more details, check out the Github repo.
+          </p>
         </div>
         <Footer />
       </main>
